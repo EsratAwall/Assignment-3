@@ -23,6 +23,11 @@
         .font-manrope{
             font-family: "Manrope", sans-serif;
         }
+        .discuss-container{
+          background-image: url('./assets/bg.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
        </style>
     </head>
        <script>
@@ -301,6 +306,28 @@
           </div>
         </div>
       </section>
+      <!-- discuss section start -->
+       <section class="p-6 lg:px-32 discuss-container lg:mt-14 mt-3">
+        <div class=" flex justify-center mt-12"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-[#5bf75633] mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>Let's Connect</button></div> 
+        <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold text-center mt-4">Let's Discuss Next Project </h1>
+        <p class="text-base text-[#494949] font-medium text-center mx-auto mt-4"> We aim to blend functionality with aesthetic appeal, ensuring each home we create not only<br> meets the needs of the future residents but also stands out with a unique architectural style. </p>
+        <!-- input field -->
+        <div class="lg:px-5 input-container lg:mt-10 mt-9">
+          <div class="lg:flex lg:gap-6">
+          <input placeholder="First Name*" type="text" id="first-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold">
+          <input placeholder="Last Name*" type="text" id="last-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold lg:mt-0 mt-4">
+        </div>
+        <div class="lg:flex lg:gap-6 mt-5">
+          <input placeholder="Phone Number*" type="text" id="phone-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold">
+          <input placeholder="Email Number*" type="text" id="email-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold lg:mt-0 mt-4">
+        </div>
+        <textarea placeholder="Write your message here" name="message" id="message" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold mt-5 h-40"></textarea>
+        <!-- button -->
+        <div class=" lg:mx-auto flex flex-col justify-center mt-5">
+          <button class="btn font-extrabold text-lg  bg-[#ABEF5F] rounded-3xl px-7 flex text-center p-2">Send Mail<i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i></button>
+          </div>
+        </div>
+       </section>
     </main>
     <!-- end main section -->
      <!-- start footer section -->
