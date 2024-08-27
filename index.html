@@ -6,20 +6,20 @@
     <title>Assignment-03</title>
     <!-- tailwind css cdn link -->
     <script src="https://cdn.tailwindcss.com"></script>
-     <!-- DaisyUI cdn link -->
-     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-     <script src="https://cdn.tailwindcss.com"></script>
-      <!-- font awesome link -->
-      <script src="https://kit.fontawesome.com/e8e2a3bc7e.js" crossorigin="anonymous"></script>
-       <!-- google font link -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-        <!-- config.js link -->
-         <link rel="stylesheet" href="./tailwind.config.js">
+    <!-- DaisyUI cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/e8e2a3bc7e.js" crossorigin="anonymous"></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- config.js link -->
+    <link rel="stylesheet" href="./tailwind.config.js">
         
-       <!--style  -->
-       <style>
+    <!--style  -->
+     <style>
         .font-manrope{
             font-family: "Manrope", sans-serif;
         }
@@ -28,9 +28,9 @@
           background-size: cover;
           background-repeat: no-repeat;
         }
-       </style>
-    </head>
-       <script>
+     </style>
+  </head>
+    <script>
         tailwind.config = {
           theme: {
             extend: {
@@ -40,17 +40,16 @@
             }
           }
         }
-      </script>
+    </script>
 <body class="font-manrope">
-    <!--start header section -->
-
-    <header class="bg-gradient-to-t from-white to-[#d9eafc] px-4 py-8 ">  
+<!--start header section -->
+<header class="bg-gradient-to-t from-white to-[#d9eafc] px-4 py-8 ">  
  <section class="flex items-center justify-between lg:mb-20 mb-7">
   <div class="flex gap-2 lg:ms-20">
     <div class="bg-[#ABEF5F] rounded-full p-1 w-7 h-7 flex justify-center items-center"> <i class="fa-solid fa-arrow-right -rotate-45"></i></div>
     <a class="text-2xl font-extrabold ">Rinterio</a>
   </div>
-  <!-- text-center -->
+<!-- text-center -->
   <div class=" hidden lg:flex gap-5">
     <h6 class="text-base font-bold lg:ps-48 text-[#494949]">Home</h6>
     <h6 class="text-base font-bold  text-[#737373]">Services</h6>
@@ -58,7 +57,7 @@
     <h6 class="text-base font-bold  text-[#737373]">Blogs</h6>
     <h6 class="text-base font-bold  text-[#737373]">Contact Us</h6>
   </div>
-  <!-- button -->
+<!-- button -->
   <div class=" lg:flex hidden lg:ps-5">
     <button class="btn btn-circle border-1 border-gray-300 bg-white">
       <i class="fa-solid fa-magnifying-glass"></i>
@@ -69,7 +68,7 @@
     </button>
     <a href="lg:block none"> <button class="btn font-extrabold text-black ms-2  text-lg lg:w-56 mx-auto  w-full bg-[#ABEF5F] rounded-3xl border-0 flex text-center lg:block hidden">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full p-1 ms-1 text-white"></i></button></a>
   </div>
-  <!-- mobile responsive -->
+<!-- mobile responsive -->
   <div class="dropdown lg:mt-0 -mt-2">
     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
       <svg
@@ -86,10 +85,10 @@
       </svg>
     </div>
   </div>
-  </section>
+</section>
     
 <!-- banner section -->
- <section class="space-y-5 lg:p-0 p-6">
+<section class="space-y-5 lg:p-0 p-6">
   <div class="flex justify-center">
     <img src="./assets/banner.png" alt="">
   </div>
@@ -102,169 +101,168 @@
   </div>
  </section>
     </header>
-    <!-- end header section -->
+<!-- end header section -->
 
-     <!-- start main section -->
-    
-    <main>
+<!-- start main section -->
+<main>
 <!-- we design section start -->
-     <section class="bg-gray-200 lg:mt-14 mt-3 pt-5">
-    <div class="lg:px-32 mx-auto p-6 lg:grid lg:grid-cols-2 grid-cols-1 gap-7">
-      <div class="space-y-4">
-       <img src="./assets/Vector.png" alt="" class="-ms-5 lg:block hidden"> 
-        <div class=" lg:flex-none lg:justify-start flex justify-center"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-white mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>About Us</button></div> 
-       <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold lg:text-start text-center">We design thoughtful, liveable spaces</h1>
-       <p class="text-base text-[#494949] font-medium lg:text-start text-center">We design thoughtful, livable spaces that blend creativity with functionality.</p>
-       <!-- first card -->
-       <div class="">
-        <div class="card card-side bg-white rounded-lg mt-11 px-6">
-          <figure>
-            <img src="./assets/commercial.png" alt="Movie" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title text-[#494949] font-bold  text-xl">Commercial</h2>
-            <p class="text-base text-[#737373] font-medium">Transform your space with innovative commercial design solutions </p>
-          </div>
-        </div>
-       </div>
-       <!-- second card -->
-       <div class="">
-        <div class="card card-side bg-white rounded-lg lg:mt-7 px-6">
-          <figure>
-            <img src="./assets/residential.png" alt="Movie" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title text-[#494949] font-bold  text-xl">Residential</h2>
-            <p class="text-base text-[#737373] font-medium">Creating personalized residential designs that reflect your unique lifestyle. </p>
-          </div>
-        </div>
-       </div>
-      </div>
-      <div class="lg:mt-7 mt-6">
-        <img src="./assets/Rectangle.png" alt="" class="w-full">
+<section class="bg-gray-200 lg:mt-14 mt-3 pt-5">
+  <div class="lg:px-32 mx-auto p-6 lg:grid lg:grid-cols-2 grid-cols-1 gap-7">
+    <div class="space-y-4">
+      <img src="./assets/Vector.png" alt="" class="-ms-5 lg:block hidden"> 
+      <div class=" lg:flex-none lg:justify-start flex justify-center"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-white mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>About Us</button></div> 
+      <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold lg:text-start text-center">We design thoughtful, liveable spaces</h1>
+      <p class="text-base text-[#494949] font-medium lg:text-start text-center">We design thoughtful, livable spaces that blend creativity with functionality.</p>
+<!-- first card -->
+  <div class="">
+    <div class="card card-side bg-white rounded-lg mt-11 px-6">
+      <figure>
+        <img src="./assets/commercial.png" alt="Movie" />
+      </figure>
+      <div class="card-body">
+          <h2 class="card-title text-[#494949] font-bold  text-xl">Commercial</h2>
+          <p class="text-base text-[#737373] font-medium">Transform your space with innovative commercial design solutions </p>
       </div>
     </div>
-    <!-- Our works section start -->
-     <div class="bg-gray-200 pt-14 p-6 lg:px-32">
-      <div class=" flex justify-center"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-white mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>How we works </button></div> 
+    </div>
+<!-- second card -->
+  <div class="">
+    <div class="card card-side bg-white rounded-lg lg:mt-7 px-6">
+      <figure>
+        <img src="./assets/residential.png" alt="Movie" />
+      </figure>
+    <div class="card-body">
+        <h2 class="card-title text-[#494949] font-bold  text-xl">Residential</h2>
+        <p class="text-base text-[#737373] font-medium">Creating personalized residential designs that reflect your unique lifestyle. </p>
+    </div>
+    </div>
+   </div>
+  </div>
+  <div class="lg:mt-7 mt-6">
+      <img src="./assets/Rectangle.png" alt="" class="w-full">
+  </div>
+</div>
+<!-- Our works section start -->
+  <div class="bg-gray-200 pt-14 p-6 lg:px-32">
+    <div class=" flex justify-center"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-white mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>How we works </button></div> 
       <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold text-center mt-4">Our Works Process</h1>
       <p class="text-base text-[#494949] font-medium text-center mx-auto mt-4"> We begin by understanding your vision, needs, and budget through a detailed consultation.<br> This helps us align our design approach with your lifestyle and preferences.</p>
-      <!-- card container -->
-       <div class="grid grid-cols-1 lg:grid-cols-4 lg:mt-12 mt-9 gap-6">
-        <!-- first card -->
-        <div class="card bg-[#E7C1D3]">
-          <div class="mt-6 ms-8 -mb-5">
-            <img
-              src="./assets/concept.png"
-              alt="Shoes" />
-          </div>
-          <div class="card-body">
-            <h2 class="card-title text-[#494949] font-bold  text-xl">Concept</h2>
-            <p class="text-base text-[#494949] font-medium">If a dog chews shoes whose shoes does he choose?</p>
-          </div>
-        </div>
-        <!-- second card -->
-        <div class="card bg-[#EFDA6E]">
-          <div class="mt-6 ms-8 -mb-5">
-            <img
-              src="./assets/flow-chart.png"
-              alt="Shoes" />
-          </div>
-          <div class="card-body">
-            <h2 class="card-title text-[#494949] font-bold  text-xl">Design Process</h2>
-            <p class="text-base text-[#494949] font-medium">If a dog chews shoes whose shoes does he choose?</p>
-          </div>
-        </div>
-        <!-- third card -->
-        <div class="card bg-[#A4DAC3]">
-          <div class="mt-6 ms-8 -mb-5">
-            <img
-              src="./assets/vision.png"
-              alt="Shoes" />
-          </div>
-          <div class="card-body">
-            <h2 class="card-title text-[#494949] font-bold  text-xl">Supervision</h2>
-            <p class="text-base text-[#494949] font-medium">If a dog chews shoes whose shoes does he choose?</p>
-          </div>
-        </div>
-        <!-- fourth card -->
-        <div class="card bg-[#77AAEA]">
-          <div class="mt-6 ms-8 -mb-5">
-            <img
-              src="./assets/budget-planning.png"
-              alt="Shoes" />
-          </div>
-          <div class="card-body">
-            <h2 class="card-title text-[#494949] font-bold  text-xl">Budget Planning</h2>
-            <p class="text-base text-[#494949] font-medium">If a dog chews shoes whose shoes does he choose?</p>
-          </div>
-        </div>
-       </div>
-     </div>
-     </section>
-     <!-- latest portfolio section start -->
-      <section class="pt-14 p-6 lg:px-32 lg:bg-white bg-gray-200">
-        <div class=" flex justify-center"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-[#5bf75633] mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>Explore our Latest works</button></div> 
-        <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold text-center mt-4">Our Latest Portfolio  </h1>
-        <p class="text-base text-[#494949] font-medium text-center mx-auto mt-4"> Our latest portfolio showcases a stunning array of house designs, each crafted with meticulous<br> attention to detail and a deep understanding of modern living.</p>
-        <!-- first grid card -->
-        <div class="grid lg:grid-cols-3 grid-cols-1 mt-10">
-          <!-- card 1 -->
-         <div class="col-span-2 bg-white p-4 border-2 lg:border-gray-100 border-gray-300 rounded-xl">
-          <div class="card lg:card-side ">
-            <div class="w-full rounded-xl">
-              <img
-                src="./assets/img1.png"
-                alt="Album" class="h-full w-full"/>
-            </div>
-            <div class="card-body lg:ps-5 ps-2">
-              <h2 class="card-title text-[#2a2a2a] font-extrabold  text-xl">Commercial</h2>
-              <p class="text-base text-[#494949] font-medium mt-1">Elevate your lifestyle with our custom house design services. We create spaces that not only look incredible but also enhance the way you live every day.</p>
-                <div class="card-actions mt-2">
-                  <a class="text-lg font-extrabold">View Details</a>
-                  <div class="bg-[#ABEF5F] rounded-full mt-1 w-6 h-6 flex justify-center items-center"> <i class="fa-solid fa-arrow-right -rotate-45"></i></div>
-                </div>
-              </div>
-            </div>
-          </div>
+<!-- card container -->
+  <div class="grid grid-cols-1 lg:grid-cols-4 lg:mt-12 mt-9 gap-6">
+<!-- first card -->
+  <div class="card bg-[#E7C1D3]">
+  <div class="mt-6 ms-8 -mb-5">
+        <img
+          src="./assets/concept.png"
+          alt="Shoes" />
+    </div>
+  <div class="card-body">
+        <h2 class="card-title text-[#494949] font-bold  text-xl">Concept</h2>
+        <p class="text-base text-[#494949] font-medium">If a dog chews shoes whose shoes does he choose?</p>
+   </div>
+  </div>
+<!-- second card -->
+<div class="card bg-[#EFDA6E]">
+    <div class="mt-6 ms-8 -mb-5">
+      <img
+        src="./assets/flow-chart.png"
+        alt="Shoes" />
+    </div>
+      <div class="card-body">
+          <h2 class="card-title text-[#494949] font-bold  text-xl">Design Process</h2>
+          <p class="text-base text-[#494949] font-medium">If a dog chews shoes whose shoes does he choose?</p>
+      </div>
+  </div>
+<!-- third card -->
+<div class="card bg-[#A4DAC3]">
+    <div class="mt-6 ms-8 -mb-5">
+        <img
+          src="./assets/vision.png"
+          alt="Shoes" />
+    </div>
+  <div class="card-body">
+        <h2 class="card-title text-[#494949] font-bold  text-xl">Supervision</h2>
+        <p class="text-base text-[#494949] font-medium">If a dog chews shoes whose shoes does he choose?</p>
+  </div>
+</div>
+<!-- fourth card -->
+<div class="card bg-[#77AAEA]">
+    <div class="mt-6 ms-8 -mb-5">
+      <img
+        src="./assets/budget-planning.png"
+        alt="Shoes" />
+    </div>
+    <div class="card-body">
+        <h2 class="card-title text-[#494949] font-bold  text-xl">Budget Planning</h2>
+        <p class="text-base text-[#494949] font-medium">If a dog chews shoes whose shoes does he choose?</p>
+    </div>
+    </div>
+    </div>
+</div>
+</section>
+<!-- latest portfolio section start -->
+<section class="pt-14 p-6 lg:px-32 lg:bg-white bg-gray-200">
+  <div class=" flex justify-center"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-[#5bf75633] mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>Explore our Latest works</button></div> 
+    <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold text-center mt-4">Our Latest Portfolio  </h1>
+    <p class="text-base text-[#494949] font-medium text-center mx-auto mt-4"> Our latest portfolio showcases a stunning array of house designs, each crafted with meticulous<br> attention to detail and a deep understanding of modern living.</p>
+<!-- first grid card -->
+    <div class="grid lg:grid-cols-3 grid-cols-1 mt-10">
+ <!-- card 1 -->
+    <div class="col-span-2 bg-white p-4 border-2 lg:border-gray-100 border-gray-300 rounded-xl">
+      <div class="card lg:card-side ">
+        <div class="w-full rounded-xl">
+          <img
+            src="./assets/img1.png"
+            alt="Album" class="h-full w-full"/>
+      </div>
+      <div class="card-body lg:ps-5 ps-2">
+          <h2 class="card-title text-[#2a2a2a] font-extrabold  text-xl">Commercial</h2>
+          <p class="text-base text-[#494949] font-medium mt-1">Elevate your lifestyle with our custom house design services. We create spaces that not only look incredible but also enhance the way you live every day.</p>
+      <div class="card-actions mt-2">
+          <a class="text-lg font-extrabold">View Details</a>
+        <div class="bg-[#ABEF5F] rounded-full mt-1 w-6 h-6 flex justify-center items-center"> <i class="fa-solid fa-arrow-right -rotate-45"></i></div>
+      </div>
+    </div>
+    </div>
+</div>
 <!-- card-2 -->
- <div class="lg:mt-0 mt-4 lg:ms-4 bg-white p-4 border-2 lg:border-gray-100 border-gray-300 rounded-xl w-full">
+<div class="lg:mt-0 mt-4 lg:ms-4 bg-white p-4 border-2 lg:border-gray-100 border-gray-300 rounded-xl w-full">
   <img src="./assets/img2.png" alt="" class="h-full w-full">
- </div>
-         </div>
-         <!-- second grid card -->
-         <div class="grid lg:grid-cols-4 grid-cols-1 lg:mt-10 mt-3">
+</div>
+</div>
+<!-- second grid card -->
+  <div class="grid lg:grid-cols-4 grid-cols-1 lg:mt-10 mt-3">
 <!-- card 1 -->
 <div class="lg:mt-0 mt-3 bg-white p-4 border-2 lg:border-gray-100 border-gray-300 rounded-xl w-full">
   <img src="./assets/img3.png" alt="" class="w-full h-full">
  </div>
- <!-- card 2 -->
+<!-- card 2 -->
  <div class="col-span-2 lg:ms-4 lg:mt-0 mt-4 bg-white p-4 border-2 lg:border-gray-100 border-gray-300 rounded-xl">
   <div class="card lg:card-side ">
     <div class="w-full rounded-xl">
       <img
         src="./assets/img4.png"
         alt="Album" class=" h-full w-full"/>
-    </div>
-    <div class="card-body lg:ps-5 ps-2">
-      <h2 class="card-title text-[#2a2a2a] font-extrabold  text-xl">Commercial</h2>
-      <p class="text-base text-[#494949] font-medium mt-1">Your home deserves a design as unique as you are. Let our award-winning team craft a living space that blends beauty.</p>
-        <div class="card-actions mt-2">
-          <a class="text-lg font-extrabold">View Details</a>
-          <div class="bg-[#ABEF5F] rounded-full mt-1 w-6 h-6 flex justify-center items-center"> <i class="fa-solid fa-arrow-right -rotate-45"></i></div>
-        </div>
-      </div>
-    </div>
+</div>
+<div class="card-body lg:ps-5 ps-2">
+    <h2 class="card-title text-[#2a2a2a] font-extrabold  text-xl">Commercial</h2>
+    <p class="text-base text-[#494949] font-medium mt-1">Your home deserves a design as unique as you are. Let our award-winning team craft a living space that blends beauty.</p>
+  <div class="card-actions mt-2">
+    <a class="text-lg font-extrabold">View Details</a>
+  <div class="bg-[#ABEF5F] rounded-full mt-1 w-6 h-6 flex justify-center items-center"> <i class="fa-solid fa-arrow-right -rotate-45"></i></div>
   </div>
-  <!-- card 3 -->
-  <div class="lg:mt-0 mt-4 lg:ms-4 bg-white p-4 border-2 lg:border-gray-100 border-gray-300 rounded-xl w-full">
+</div>
+</div>
+</div>
+<!-- card 3 -->
+<div class="lg:mt-0 mt-4 lg:ms-4 bg-white p-4 border-2 lg:border-gray-100 border-gray-300 rounded-xl w-full">
     <img src="./assets/img5.png" alt="" class="w-full h-full">
-   </div>
-          </div>
-        </div>
-      </section>
-       <!-- unique section image gallary start -->
-        <section class="lg:pt-14 pb-20 p-6 lg:px-32 bg-gray-200 lg:mt-8">
+  </div>
+  </div>
+</div>
+</section>
+<!-- unique section image gallary start -->
+<section class="lg:pt-14 pb-20 p-6 lg:px-32 bg-gray-200 lg:mt-8">
 <div class="">
   <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold text-center mt-4">Barn Houses Gallary</h1>
   <p class="text-base text-[#494949] font-medium text-center mx-auto mt-4"> Explore our curated selection to find inspiration for your next project or simply admire the craftsmanship<br> and design of these iconic structures.</p>
@@ -277,36 +275,36 @@
 <img src="./assets/gallary-6.jpg" alt=""  class="w-full h-60">
   </div>
 </div>
-        </section>
-      <!-- discuss section start -->
-       <section class="p-6 lg:px-32 discuss-container mt-3">
-        <div class=" flex justify-center mt-12"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-[#5bf75633] mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>Let's Connect</button></div> 
-        <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold text-center mt-4">Let's Discuss Next Project </h1>
-        <p class="text-base text-[#494949] font-medium text-center mx-auto mt-4"> We aim to blend functionality with aesthetic appeal, ensuring each home we create not only<br> meets the needs of the future residents but also stands out with a unique architectural style. </p>
-        <!-- input field -->
-        <div class="lg:px-5 input-container lg:mt-10 mt-9">
-          <div class="lg:flex lg:gap-6">
-          <input placeholder="First Name*" type="text" id="first-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold">
-          <input placeholder="Last Name*" type="text" id="last-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold lg:mt-0 mt-4">
-        </div>
-        <div class="lg:flex lg:gap-6 mt-5">
-          <input placeholder="Phone Number*" type="text" id="phone-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold">
-          <input placeholder="Email Number*" type="text" id="email-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold lg:mt-0 mt-4">
-        </div>
-        <textarea placeholder="Write your message here" name="message" id="message" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold mt-5 h-40"></textarea>
-        <!-- button -->
-        <div class=" lg:mx-auto flex flex-col justify-center mt-5 lg:mb-16 mb-5">
-          <button class="btn font-extrabold text-lg  bg-[#ABEF5F] rounded-3xl px-7 flex text-center p-2">Send Mail<i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i></button>
-          </div>
-        </div>
+</section>
+<!-- discuss section start -->
+<section class="p-6 lg:px-32 discuss-container mt-3">
+  <div class=" flex justify-center mt-12"><button class="btn font-extrabold text-base  text-[#494949]  rounded-3xl px-5  text-center bg-[#5bf75633] mt-2"><i class="fa-solid fa-arrow-right text-[#494949]"></i>Let's Connect</button></div> 
+      <h1 class="text-[#212121] lg:text-4xl text-3xl font-extrabold text-center mt-4">Let's Discuss Next Project </h1>
+      <p class="text-base text-[#494949] font-medium text-center mx-auto mt-4"> We aim to blend functionality with aesthetic appeal, ensuring each home we create not only<br> meets the needs of the future residents but also stands out with a unique architectural style. </p>
+<!-- input field -->
+  <div class="lg:px-5 input-container lg:mt-10 mt-9">
+    <div class="lg:flex lg:gap-6">
+        <input placeholder="First Name*" type="text" id="first-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold">
+        <input placeholder="Last Name*" type="text" id="last-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold lg:mt-0 mt-4">
+    </div>
+    <div class="lg:flex lg:gap-6 mt-5">
+        <input placeholder="Phone Number*" type="text" id="phone-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold">
+        <input placeholder="Email Number*" type="text" id="email-name" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold lg:mt-0 mt-4">
+    </div>
+      <textarea placeholder="Write your message here" name="message" id="message" class="rounded-3xl bg-white w-full p-4 ps-5 font-semibold mt-5 h-40"></textarea>
+<!-- button -->
+      <div class=" lg:mx-auto flex flex-col justify-center mt-5 lg:mb-16 mb-5">
+        <button class="btn font-extrabold text-lg  bg-[#ABEF5F] rounded-3xl px-7 flex text-center p-2">Send Mail<i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i></button>
+      </div>
+    </div>
        
-      </section>
+</section>
       
-    </main>
-    <!-- end main section -->
-     <!-- start footer section -->
-    <footer class="bg-black lg:px-44 px-6 lg:py-24 py-16">
-       <div class="flex justify-center items-center gap-2">
+</main>
+<!-- end main section -->
+<!-- start footer section -->
+<footer class="bg-black lg:px-44 px-6 lg:py-24 py-16">
+  <div class="flex justify-center items-center gap-2">
     <div class="bg-[#ABEF5F] rounded-full p-1 w-7 h-7 text-center"> <i class="fa-solid fa-arrow-right -rotate-45"></i></div>
     <a class="text-2xl text-white font-extrabold">Rinterio</a>
   </div>
@@ -319,8 +317,8 @@
   </div>
   <div class="flex flex-col justify-center lg:mt-16 mt-7">
     <button class="btn font-extrabold text-white text-lg lg:w-56 mx-auto  w-full bg-[#a6f34f80] rounded-3xl px-7 border-0 flex text-center">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full p-1"></i></button>
-    </div>
-    </footer>
-    <!-- end footer section -->
+  </div>
+</footer>
+<!-- end footer section -->
 </body>
 </html>
